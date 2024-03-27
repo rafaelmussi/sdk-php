@@ -1,8 +1,8 @@
 {
-    "name": "authorizenet/authorizenet",
+    "name": "rafaelmussi/authorizenet",
     "type": "library",
 	"version": "2.0.2",
-    "description": "Official PHP SDK for Authorize.Net",
+    "description": "Forked from Official PHP SDK for Authorize.Net",
     "keywords": ["authorizenet", "authorize.net", "payment", "ecommerce"],
     "license": "proprietary",
     "homepage": "http://developer.authorize.net",
