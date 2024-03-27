@@ -57,6 +57,8 @@ class ANetSensitiveFields
             }
         }
         
+        // Initialize $sensitiveTags to an empty array if it's null
+        $sensitiveTags = $sensitiveTags ?? [];
         //Check for disableMask flag in case of client json.
         self::$applySensitiveTags = array();
         foreach($sensitiveTags as $sensitiveTag){
